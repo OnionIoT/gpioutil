@@ -22,7 +22,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-#include <linux/gpio/consumer.h>
+#include <linux/gpio/gpiolib.h>
 
 static void usage_error (void) {
 	fprintf(stderr, "Usage: gpioutil <command> <gpio#>\n\n");
